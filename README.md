@@ -12,5 +12,5 @@ I embedded the OpenFlow rules into the switches in the topology I created with M
 #mininet> s2 ovs-ofctl add-flow s2 "priority=1, actions=output:3"
 #mininet> s3 ovs-ofctl add-flow s3 "priority=1, actions=output:2"
 
-
+In the continuation of the project, I wrote a code that allows finding the shortest path in a network topology using the OpenDaylight controller. Also, I found the densest switchs in the OpenFlow switchs based on packet statistics and made Decalculation of the shortest path between these switchs.
 
