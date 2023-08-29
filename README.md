@@ -2,10 +2,6 @@
 
 First of all, I installed two separate virtual machines for my project. I installed one Mininet and the other Ubuntu 22.04. I downloaded OpenDayLight from the Ubuntu machine and tried to create a simple topology over Mininet and see it with OpenDayLight.  
 
-![Screenshot from 2023-06-15 21-59-58](https://github.com/pinarkurtunluoglu/MininetProject/assets/77545059/038eefd1-9544-4764-b8fe-728353a4c589)
-
-![Ekran Alıntısıı](https://github.com/pinarkurtunluoglu/MininetProject/assets/77545059/40e09b0c-24a3-4559-b5b4-003d92eaf7e1)
-
 I embedded the OpenFlow rules into the switches in the topology I created with Mininet with below codes.
 
 #mininet> s1 ovs-ofctl add-flow s1 "priority=1, actions=output:2"
